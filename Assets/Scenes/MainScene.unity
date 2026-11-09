@@ -304,6 +304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpaceshipScript
   speed: 2
   force: 8
+  newBulletPrefab: {fileID: 6555857328737351942, guid: 33cb7e249c62a57499b7070466c1dd9a, type: 3}
 --- !u!50 &416506122
 Rigidbody2D:
   serializedVersion: 5
