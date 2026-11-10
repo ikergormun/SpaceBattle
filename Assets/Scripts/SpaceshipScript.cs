@@ -15,10 +15,10 @@ public class SpaceshipScript : MonoBehaviour
 
     //Prefab de la bala.
     [SerializeField] GameObject newBulletPrefab;
-    [SerializeField] float BulletCooldown = 2f;
+    [SerializeField] float BulletCooldown = 1f;
 
     //Booleano para permitir disparar o no.
-    bool CanShoot = true;
+    private bool CanShoot = true;
 
     //Corrutina de Cooldown
     IEnumerator EnableShoot()
